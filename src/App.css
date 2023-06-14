@@ -27,7 +27,29 @@
 .App-link {
   color: #61dafb;
 }
-
+/* */
+.button-wrapper button {
+  background: red;
+  border: 0;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  box-shadow: #333 0px 1px 5px;
+}
+.cart-wrapper {
+  height: 200px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-wrapper img {
+  width: 178px;
+}
+.item{
+  float: left;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
